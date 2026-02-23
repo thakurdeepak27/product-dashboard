@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Product Dashboard
 
 A **Product Management application** built with **React** and **Vite**, featuring full CRUD operations (Create, Read, Update, Delete) using a REST API.  
@@ -52,3 +53,7 @@ VITE_BASE_URL=https://fakestoreapi.com/products
 Run the development server
 npm run dev
 ```
+=======
+# product-dashboard
+A simple Product Management application built with React and Vite, featuring full CRUD operations (Create, Read, Update, Delete) using a REST API. The app is fully responsive, includes form validation, and leverages a clean component-based architecture with a separate services folder for API calls.
+>>>>>>> 9b71077d6b94e19072ee4e5c7ee5ff9f1cd4ddc8
