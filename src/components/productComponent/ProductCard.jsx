@@ -4,7 +4,12 @@ import "./ProductCard.css";
 export const ProductCard = ({ product, onEdit, onDelete }) => {
   return (
     <div className="product-card">
-      <img src={product.image} alt={product.title} className="product-image" />
+      <img
+        src={product.image}
+        alt={product.title}
+        loading="lazy"
+        className="product-image"
+      />
 
       <div className="product-content">
         <h3 className="product-title">{product.title}</h3>
