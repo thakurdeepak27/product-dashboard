@@ -1,0 +1,44 @@
+.product-form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 30px;
+  margin: 0 auto 40px;
+}
+
+.product-form h2 {
+  margin-bottom: 20px;
+}
+
+.form-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.form-error {
+  color: #d32f2f;
+  font-size: 13px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+/* Mobile */
+ @media (min-width: 992px) {
+  .product-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .product-form h2 {
+    grid-column: span 2;
+  }
+
+  .form-actions {
+    grid-column: span 2;
+  }
+  
+}
+
